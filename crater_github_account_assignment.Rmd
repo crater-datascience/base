@@ -1,0 +1,57 @@
+---
+title: "Crater_Github_Account_Assignment"
+author: "Andrew Crater"
+date: "2024-12-10"
+output: html_document
+---
+
+# Things that I learned each week
+
+
+### Week 1
+
+ The most important thing that we learned this week was how to do various function in RMarkdown, which we have used in all of the subsequent weeks. Also, the professional look of the Rmd file compared to the rough look of a raw R-script is excellent for displaying the document in a readable way. 
+ 
+Alongside that, we also learned about the data science process, and the general theory for how to find problems and figure out how we can solve them through analysis.
+ 
+### Week 2
+
+During week two, we learned how to view and deal with missing values in data. This is important because it is important in real life scenarios to be able to be able to both quickly survey the general structure of the data, and deal with irregularities, and this is especially important because real world data will have many irregularities. 
+
+Also, we learned about how to transform variables of interest, for example taking the log of a variable, in order to make it fit our models better.
+
+### Week 3
+
+During week three, we learned the basics of linear regression. This is important because linear regression is the most basic building block of modeling. We learned about how the linear model should always be tried first, because if it works, more complicated tests can be avoided.
+
+To go along with this, we also learned about the importance of the assumptions with linear regression. This is important because if you don't understand the limitations of the model, you might accidentally use it in the wrong situations and not be able to deliver valid results.
+
+### Week 4
+
+In week four, we focused on classification. We learned about different classification concepts, including logistic regression.
+
+We also learned about and discussed in the discussion boards the differences between precision and recall, and how they represent different measures of accuracy for regression models. Precision is more important when accurate positives are the priority, whereas recall is better suited for when false negatives are the worst outcome. I remember using the result of cancer screening as a time when where recall would be the best measure, because of how bad a false negative is for a potential patient as compared to a false positive.
+
+### Week 5
+
+In week five, we discussed GLMs. The principal andvantage of GLMs is that the data does not have to be exactly normal in order to use them, as it does for linear models. Also, certain GLMs fit certain types of response variables very well. For example, we learned that the Poisson distribution was very useful when considering a count variable being of interest.
+
+In terms of negatives mentioned during the GLM discussion, one that sticks out in my memory is overfitting, so we need to be careful of that when using GLMs.
+
+### Week 6
+
+During week 6, we worked with decision trees, and random forests. One thing that stuck with me about decision trees is that more branches is not always better, as overfitting can result from using too many branches.
+
+With random forests, the thing that stuck with me was that it creates multiple trees based on different pieces of training data, and then it takes the average predictions of the N tree models.
+
+### Week 7
+
+In week 7, we talked about k-means clustering and also unsupervised learning as a whole. One thing that I loved was the long-reaching potential of unsupervised learning applications, particularly in disease screening prediction, which is important to me due to my own medical history and that of my family.
+
+Also, on the technical side, I learned that there are different ways to estimate the number of clusters that are optimal. Since the gap statistic method took a long time when I ran it, I decided to use the silhouette method as well in order to compare runtime efficiency, and that was much, much faster. This was a good reminder to always research available options, and to remember that efficiency can be measured in different ways.
+
+### Week 8
+
+Finally, this week we are learning about git and github, which is incredibly important, as it is the most common version control available, and we will undoubtedly be using version control in our careers, as it helps companies track and manage changes.
+
+Also, I am looking forward to starting the final project after this, which will be an excellent chance to review all of the different skills that we have learned this semester.
